@@ -63,7 +63,7 @@ from springpython.database import *
 connectionFactory = MySQLConnectionFactory(username="me", password"secret", hostname="localhost", db="springpython")
 dt = DatabaseTemplate(connectionFactory)
 
-class TvShowMapper(RowCallbackHandler):
+class TvShowMapper(RowMapper):
     """This will handle one row of database. It can be reused for many queries if they
        are returning the same columns."""
     def map_row(self, row):
