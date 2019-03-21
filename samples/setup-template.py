@@ -6,7 +6,7 @@
    you may not use this file except in compliance with the License.
    You may obtain a copy of the License at
 
-       http://www.apache.org/licenses/LICENSE-2.0
+       https://www.apache.org/licenses/LICENSE-2.0
 
    Unless required by applicable law or agreed to in writing, software
    distributed under the License is distributed on an "AS IS" BASIS,
@@ -31,7 +31,7 @@ setup(name='springpython-samples',
       author='Greg L. Turnquist',
       author_email='gregturn at mindspring dot com',
       url='http://springpython.webfactional.com',
-      license='Apache Software License (http://www.apache.org/licenses/LICENSE-2.0)',
+      license='Apache Software License (https://www.apache.org/licenses/LICENSE-2.0)',
       packages=['petclinic', 
                 'petclinic.cherrypy',
                 'petclinic.db',
