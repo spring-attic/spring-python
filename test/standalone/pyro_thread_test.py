@@ -1,5 +1,5 @@
 """
-   Copyright 2006-2008 SpringSource (http://springsource.com), All Rights Reserved
+   Copyright 2006-2008 SpringSource (https://springsource.com), All Rights Reserved
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -16,7 +16,7 @@
 
 ########################################################################
 # This is a stand-alone test, meaning it doesn't run well in automated
-# scenarios. This script exposed bug http://jira.springframework.org/browse/SESPRINGPYTHONPY-99,
+# scenarios. This script exposed bug https://jira.springframework.org/browse/SESPRINGPYTHONPY-99,
 # which showed _PyroThread having a name collisions with python2.6's threading.Thread
 # class. By renaming _PyroThread's self.daemon as self.pyro_daemon, this code
 # now works with python2.6. It was also used to confirm python2.5, and jython2.5.1.FINAL.

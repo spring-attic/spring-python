@@ -19,27 +19,27 @@ SQL databases. Depending on which SQL connection factory you're about to use,
 you need to install following dependencies:
 
 * *springpython.database.factory.MySQLConnectionFactory* -
-  needs `MySQLdb <http://sourceforge.net/projects/mysql-python/>`_ for connecting to MySQL,
+  needs `MySQLdb <https://sourceforge.net/projects/mysql-python/>`_ for connecting to MySQL,
 
 * *springpython.database.factory.PgdbConnectionFactory* -
   needs `PyGreSQL <http://www.pygresql.org/>`_ for connecting to PostgreSQL,
 
 * *springpython.database.factory.Sqlite3ConnectionFactory* -
-  needs `PySQLite <http://pypi.python.org/pypi/pysqlite/>`_ for connecting to SQLite 3, note that PySQLite is part
+  needs `PySQLite <https://pypi.python.org/pypi/pysqlite/>`_ for connecting to SQLite 3, note that PySQLite is part
   of Python 2.5 and later so you need to install it separately only if you're
   using Python 2.4,
 
 * *springpython.database.factory.cxoraConnectionFactory* -
-  needs `cx_Oracle <http://pypi.python.org/pypi/cx_Oracle>`_ for connecting to Oracle,
+  needs `cx_Oracle <https://pypi.python.org/pypi/cx_Oracle>`_ for connecting to Oracle,
 
 * *springpython.database.factory.SQLServerConnectionFactory* -
-  needs `PyODBC <http://pypi.python.org/pypi/pyodbc>`_ for connecting to SQL Server.
+  needs `PyODBC <https://pypi.python.org/pypi/pyodbc>`_ for connecting to SQL Server.
 
 Traditional Database Query
 ++++++++++++++++++++++++++
 
 If you have written a database SELECT statement following Python's
-`DB-API 2.0 <http://www.python.org/dev/peps/pep-0249/>`_, it would something
+`DB-API 2.0 <https://www.python.org/dev/peps/pep-0249/>`_, it would something
 like this (MySQL example)::
 
     conn = MySQL.connection(username="me", password="secret", hostname="localhost", db="springpython")
@@ -168,7 +168,7 @@ What is a Connection Factory?
 +++++++++++++++++++++++++++++
 
 You may have noticed I didn't make a standard connection in the example above.
-That is because to support `Dependency Injection <http://en.wikipedia.org/wiki/Dependency_injection>`_,
+That is because to support `Dependency Injection <https://en.wikipedia.org/wiki/Dependency_injection>`_,
 I need to setup my credentials in an object before making the actual connection.
 *MySQLConnectionFactory* holds credentials specific to the MySQL DB-API, but
 contains a common function to actually create the connection. I don't have
@@ -196,7 +196,7 @@ You may have noticed in the first three example queries I wrote with the
 *binding variables*, and they require a tuple argument be included after the SQL
 statement. Do *NOT* include quotes around these variables. The database connection
 will handle that. This style of SQL programming is *highly recommended* to avoid
-`SQL injection attacks <http://en.wikipedia.org/wiki/SQL_injection>`_.
+`SQL injection attacks <https://en.wikipedia.org/wiki/SQL_injection>`_.
 
 For users who are familiar with Java database APIs, the binding variables are
 cited using "?" instead of "%s". To make both parties happy and help pave the
@@ -207,8 +207,8 @@ as you wish, and things will still work.
 Have you used Spring Framework's JdbcTemplate?
 ++++++++++++++++++++++++++++++++++++++++++++++
 
-If you are a user of Java's `Spring framework <http://www.springsource.org/>`_
-and have used the `JdbcTemplate <http://static.springsource.org/spring/docs/1.2.x/api/org/springframework/jdbc/core/JdbcTemplate.html>`_,
+If you are a user of Java's `Spring framework <https://www.springsource.org/>`_
+and have used the `JdbcTemplate <https://docs.spring.io/spring/docs/1.2.x/api/org/springframework/jdbc/core/JdbcTemplate.html>`_,
 then you will find this template has a familiar feel.
 
 =================================================================  ================================================================================================

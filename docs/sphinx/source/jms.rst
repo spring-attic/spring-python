@@ -57,8 +57,8 @@ from IBM's site.
 
 :ref:`springpython.jms.listener.SimpleMessageListenerContainer <jms-simplemessagelistenercontainer>`, a Spring Python component which helps with
 running background JMS listeners, requires the installation of
-`Circuits 1.2+ <http://pypi.python.org/pypi/circuits>`_
-and `threadpool 1.2.7 or newer <http://pypi.python.org/pypi/threadpool>`_.
+`Circuits 1.2+ <https://pypi.python.org/pypi/circuits>`_
+and `threadpool 1.2.7 or newer <https://pypi.python.org/pypi/threadpool>`_.
 
 Quick start
 -----------
@@ -1176,7 +1176,7 @@ TextMessage's attributes along with their explanation and usage notes.
 | **jms_correlation_id**       | Equivalent to Java's JMSCorrelationID message header. It must be     |
 |                              | a string instance when set manually - a good way to produce          |
 |                              | correlation identifiers is to use the Python's                       |
-|                              | `uuid4 <http://docs.python.org/library/uuid.html>`_ type, e.g.::     |
+|                              | `uuid4 <https://docs.python.org/library/uuid.html>`_ type, e.g.::     |
 |                              |                                                                      |
 |                              |      # stdlib                                                        |
 |                              |      from uuid import uuid4                                          |
@@ -1393,7 +1393,7 @@ you should always check for their existence before making any use of them.
 Logging and troubleshooting
 ---------------------------
 
-Spring Python's JMS uses standard Python's `logging <http://docs.python.org/library/logging.html>`_
+Spring Python's JMS uses standard Python's `logging <https://docs.python.org/library/logging.html>`_
 module for emitting the messages.
 In general, you can expect JMS to behave sane, it won't overflow your logs with
 meaningless entries, e.g. if you configure it to log the messages at the *ERROR*

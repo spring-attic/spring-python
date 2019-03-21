@@ -1,5 +1,5 @@
 """
-   Copyright 2006-2008 SpringSource (http://springsource.com), All Rights Reserved
+   Copyright 2006-2008 SpringSource (https://springsource.com), All Rights Reserved
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -34,7 +34,7 @@ This is a demonstration of [http://springpython.webfactional.com Spring Python].
 What do you think?
 
 ==== Level 4 Header ====
-Personally, I think this is cool. This is a wiki engine that uses the same wiki-text as [http://en.wikipedia.org Wikipedia].
+Personally, I think this is cool. This is a wiki engine that uses the same wiki-text as [https://en.wikipedia.org Wikipedia].
 
 There are many features:
 * You can make intrawiki links
@@ -58,7 +58,7 @@ By using Python, you get:
 * And finally, [[CherryPy]] finishes it up by offering lightning fast web development time.
     """, [("Original", "This is the initial entry", "20:02, 6 October 2006", "User:Gregturn"), ("First edit", "This is an edit", "20:12, 12 October 2006", "User:Gregturn")]],
     "Spring Wiki":["""Spring Wiki is a demonstration application that shows how to write a wiki engine using Spring Python and [[CherryPy]].""", []],
-    "CherryPy":["""[http://www.cherrypy.org CherryPy] is a web application framework.""", []],
+    "CherryPy":["""[https://www.cherrypy.org CherryPy] is a web application framework.""", []],
     "Springwiki Sidebar": ["""
 Single-star entries define boxes in the sidebar. Double-star boxes define the links listed underneath the boxes.
 

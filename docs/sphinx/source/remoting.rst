@@ -31,7 +31,7 @@ Spring Python currently supports and requires the installation of at least one o
 
 * `Pyro <http://pyro.sourceforge.net/>`_ (Python Remote Objects) - a pure Python transport mechanism
 
-* `Pyro4 <http://www.razorvine.net/python/Pyro/>` - (Python Remote Object v.4) - an updated version of the Pyro API.
+* `Pyro4 <https://www.razorvine.net/python/Pyro/>` - (Python Remote Object v.4) - an updated version of the Pyro API.
 
 * `Hessian <http://hessian.caucho.com/>`_ - support for Hessian has just started. So far, you can call
   Python-to-Java based on libraries released from Caucho.
@@ -711,13 +711,13 @@ SSLServer
 >>>>>>>>>
 
 SSLServer is a subclass of Python's
-`SimpleXMLRPCServer.SimpleXMLRPCServer <http://docs.python.org/library/simplexmlrpcserver.html#module-SimpleXMLRPCServer>`_
+`SimpleXMLRPCServer.SimpleXMLRPCServer <https://docs.python.org/library/simplexmlrpcserver.html#module-SimpleXMLRPCServer>`_
 which accepts arguments related to SSL in addition to those inherited from
 the base class. You expose XML-RPC services by extending SSLServer in your
 own subclass which is required to override one method, *register_functions*.
 *register_functions* may in turn use *self.register_function* for exposing those
 methods that should be accessible via XML-RPC, see
-`Python's documentation <http://docs.python.org/library/simplexmlrpcserver.html#SimpleXMLRPCServer.SimpleXMLRPCServer.register_function>`_
+`Python's documentation <https://docs.python.org/library/simplexmlrpcserver.html#SimpleXMLRPCServer.SimpleXMLRPCServer.register_function>`_
 for details of using *self.register_function*.
 
 SSLServer.__init__'s default arguments::
@@ -736,15 +736,15 @@ SSLServer.__init__'s default arguments::
   of Certificate Authorities signing the certificates of clients you deal with,
   e.g. "./ca-chain.pem",
 * *cert_reqs* - whether the client is required to authenticate itself with a certificate,
-  see `Python's documentation <http://docs.python.org/library/ssl.html#ssl.wrap_socket>`_
+  see `Python's documentation <https://docs.python.org/library/ssl.html#ssl.wrap_socket>`_
   for supported values,
 * *ssl_version* - the SSL/TLS version to use, see
-  `Python's documentation <http://docs.python.org/library/ssl.html#ssl.wrap_socket>`_
+  `Python's documentation <https://docs.python.org/library/ssl.html#ssl.wrap_socket>`_
   for supported values, note that the same value **must** be used by the client
   application,
-* *do_handshake_on_connect* - `same as in Python <http://docs.python.org/library/ssl.html#ssl.wrap_socket>`_,
-* *suppress_ragged_eofs* - `same as in Python <http://docs.python.org/library/ssl.html#ssl.wrap_socket>`_,
-* *ciphers* - `same as in Python <http://docs.python.org/library/ssl.html#ssl.wrap_socket>`_,
+* *do_handshake_on_connect* - `same as in Python <https://docs.python.org/library/ssl.html#ssl.wrap_socket>`_,
+* *suppress_ragged_eofs* - `same as in Python <https://docs.python.org/library/ssl.html#ssl.wrap_socket>`_,
+* *ciphers* - `same as in Python <https://docs.python.org/library/ssl.html#ssl.wrap_socket>`_,
   the value will be silently ignored if not running Python 2.7 or newer,
 * *log_requests* - whether requests should be logged on stdout, the value is actually
   passed directly to the request handler and that's why in current version
@@ -754,7 +754,7 @@ SSLServer.__init__'s default arguments::
 * *\**kwargs* - an open-ended list of keyword arguments, currently the only
   argument being recognized is *verify_fields* which must be a dictionary
   containing fields and values of the client certificate that must exist when the client's
-  connecting. Fields names should be in the format given in `Appendix A of RFC 3280 <http://tools.ietf.org/html/rfc3280>`_,
+  connecting. Fields names should be in the format given in `Appendix A of RFC 3280 <https://tools.ietf.org/html/rfc3280>`_,
   which means using long names instead of short ones (commonName not CN, organizationName not O, etc.),
   for instance, setting verify_fields to:
 
@@ -811,7 +811,7 @@ SSLClient
 >>>>>>>>>
 
 SSLClient extends Python's built-in
-`xmlrpclib.ServerProxy <http://docs.python.org/library/xmlrpclib.html#xmlrpclib.ServerProxy>`_
+`xmlrpclib.ServerProxy <https://docs.python.org/library/xmlrpclib.html#xmlrpclib.ServerProxy>`_
 class and, unlike :ref:`SSLServer <remoting-secure-xml-config-sslserver>`,
 can be used directly without the need for subclassing. You can simply create
 an instance and start invoking server's methods.
@@ -832,18 +832,18 @@ SSLClient.__init__’s default arguments::
 * *keyfile* - path to a PAM-encoded private key of the client, e.g. "./client-key.pem",
 * *certfile* - path to a PAM-encoded certificate of the client, e.g. "./client-key.pem",
 * *cert_reqs* - whether a server is required to have a certificate,
-  see `Python's documentation <http://docs.python.org/library/ssl.html#ssl.wrap_socket>`_
+  see `Python's documentation <https://docs.python.org/library/ssl.html#ssl.wrap_socket>`_
   for supported values,
 * *ssl_version* - the SSL/TLS version to use, see
-  `Python's documentation <http://docs.python.org/library/ssl.html#ssl.wrap_socket>`_
+  `Python's documentation <https://docs.python.org/library/ssl.html#ssl.wrap_socket>`_
   for supported values, note that the same value **must** be used by the server,
-* *transport* - `same as in Python <http://docs.python.org/library/xmlrpclib.html#xmlrpclib.ServerProxy>`_,
-* *encoding* - `same as in Python <http://docs.python.org/library/xmlrpclib.html#xmlrpclib.ServerProxy>`_,
-* *verbose* - `same as in Python <http://docs.python.org/library/xmlrpclib.html#xmlrpclib.ServerProxy>`_,
-* *allow_none* - `same as in Python <http://docs.python.org/library/xmlrpclib.html#xmlrpclib.ServerProxy>`_,
-* *use_datetime* - `same as in Python <http://docs.python.org/library/xmlrpclib.html#xmlrpclib.ServerProxy>`_,
-* *timeout* - `same as in Python <http://docs.python.org/library/httplib.html#httplib.HTTPConnection>`_,
-* *strict* - `same as in Python <http://docs.python.org/library/httplib.html#httplib.HTTPConnection>`_
+* *transport* - `same as in Python <https://docs.python.org/library/xmlrpclib.html#xmlrpclib.ServerProxy>`_,
+* *encoding* - `same as in Python <https://docs.python.org/library/xmlrpclib.html#xmlrpclib.ServerProxy>`_,
+* *verbose* - `same as in Python <https://docs.python.org/library/xmlrpclib.html#xmlrpclib.ServerProxy>`_,
+* *allow_none* - `same as in Python <https://docs.python.org/library/xmlrpclib.html#xmlrpclib.ServerProxy>`_,
+* *use_datetime* - `same as in Python <https://docs.python.org/library/xmlrpclib.html#xmlrpclib.ServerProxy>`_,
+* *timeout* - `same as in Python <https://docs.python.org/library/httplib.html#httplib.HTTPConnection>`_,
+* *strict* - `same as in Python <https://docs.python.org/library/httplib.html#httplib.HTTPConnection>`_
 
 Sample SSL XML-RPC client which uses a private key and a certificate, can be
 used for invoking the :ref:`server <remoting-secure-xml-config-sslserver-sample>`
@@ -874,7 +874,7 @@ SSLServer
 >>>>>>>>>
 
 Your subclass of SSLServer can be configured to use Python's
-standard `logging <http://docs.python.org/library/logging.html>`_ module.
+standard `logging <https://docs.python.org/library/logging.html>`_ module.
 Currently, logging events are emitted at *logging.DEBUG* and *logging.ERROR* levels.
 
 At ERROR level all failed attempts at validating of client certificates will
@@ -943,7 +943,7 @@ SSLClient
 Although SSLClient does define a self.logger object it isn't currently used
 internally in any situation (subject to change without notice so you shouldn't
 rely on the current status). On the other hand, as a subclass of
-`xmlrpclib.ServerProxy <http://docs.python.org/library/xmlrpclib.html#xmlrpclib.ServerProxy>`_,
+`xmlrpclib.ServerProxy <https://docs.python.org/library/xmlrpclib.html#xmlrpclib.ServerProxy>`_,
 the client may be configured to run in a *verbose* mode which means all HTTP traffic
 will be printed onto *standard output*.
 

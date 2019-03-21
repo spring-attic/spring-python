@@ -84,7 +84,7 @@ So far, the demos have been based on CherryPy, but the idea is that these
 features should work with any python web framework. The Spring Python team is
 striving to make things reusable with any python-based web framework. There
 is always the goal of expanding the samples into other frameworks, whether
-they are web-based, `RIA <http://en.wikipedia.org/wiki/Rich_Internet_application>`_, or thick-client.
+they are web-based, `RIA <https://en.wikipedia.org/wiki/Rich_Internet_application>`_, or thick-client.
 
 
 Support
@@ -105,32 +105,32 @@ started, so it contains up-to-date information on the project.
 Forums and Email
 ----------------
 
-* You can read the messages on `Spring Python's forums <http://forum.springsource.org/forumdisplay.php?f=45>`_
+* You can read the messages on `Spring Python's forums <https://forum.spring.io/forumdisplay.php?f=45>`_
   at the official Spring forum site.
 
 * If you are interested, you can sign up for the
-  `springpython-developer mailing list <http://lists.springsource.com/listmanager/listinfo/springpython-users>`_.
+  `springpython-developer mailing list <https://lists.springsource.com/listmanager/listinfo/springpython-users>`_.
 
 * You can read the
-  `current archives of the spring-users mailing list <http://lists.springsource.com/archives/springpython-users/>`_.
+  `current archives of the spring-users mailing list <https://lists.springsource.com/archives/springpython-users/>`_.
 
 * You can also read the
-  `old archives of the retired spring-developer mailing list <http://sourceforge.net/mailarchive/forum.php?forum=springpython-developer>`_.
+  `old archives of the retired spring-developer mailing list <https://sourceforge.net/p/legacy_/mailarchive/forum.php?forum=springpython-developer>`_.
 
 * If you want to join this project, see :ref:`how to become a team member <how-to-become-a-team-member>`
 
 IRC
 ---
 
-Join us on the #springpython IRC channel at `Freenode <http://freenode.net>`_.
+Join us on the #springpython IRC channel at `Freenode <https://freenode.net>`_.
 
 Downloads / Source Code
 +++++++++++++++++++++++
 
 If you want a release, check out
-`Spring's download site for Spring Python <http://www.springsource.com/download/community?project=Spring%20Python>`_.
+`Spring's download site for Spring Python <https://www.springsource.com/download/community?project=Spring%20Python>`_.
 
-Spring Python has migrated to `git <http://book.git-scm.com/index.html>`_, the distributed version control system.
+Spring Python has migrated to `git <https://book.git-scm.com/index.html>`_, the distributed version control system.
 If you want the latest source code type::
 
   git clone git://git.springsource.org/spring-python/spring-python.git
@@ -148,7 +148,7 @@ Installation
 
 This section is focused on helping you set up Spring Python.
 
-#. Go to `Spring's download site for Spring Python <http://www.springsource.com/download/community?project=Spring%20Python>`_.
+#. Go to `Spring's download site for Spring Python <https://www.springsource.com/download/community?project=Spring%20Python>`_.
 #. Click on **Spring Python**.
 #. Download **springpython-[release].tar.gz** to get the core library.
 #. Unpack the tarball, and go to the directory containing setup.py. (NOTE: This has been tested on Mac OSX 10.5/10.6, and Ubuntu Linux 9.04+)
@@ -220,7 +220,7 @@ Before sending us a patch, we ask you to sign the
 After a few patches, if things are looking good, we may evaluate giving you
 committer rights.
 
-Spring Python is a `TDD-based <http://en.wikipedia.org/wiki/Test-driven_development>`_
+Spring Python is a `TDD-based <https://en.wikipedia.org/wiki/Test-driven_development>`_
 project, meaning if you are working on code,
 be sure to write an automated test case and write the test case FIRST. For
 insight into that, take a trip into the code repository's test section to
@@ -236,19 +236,19 @@ hold everyone to the same standard.
 .. rubric:: Getting started with contributing
 
 #. First of all, I suggest you sign up on our
-   `springpython-developer <http://lists.springsource.com/listmanager/listinfo/springpython-users>`_
+   `springpython-developer <https://lists.springsource.com/listmanager/listinfo/springpython-users>`_
    mailing list. That way, you'll get notified about big items as well be on the inside
    for important developments that may or may not get published to the web site.
    *NOTE: Use the springsource list, NOT the sourceforge one.*
 
-#. Second, I suggest you register for a `jira account <http://jira.springsource.org/>`_,
+#. Second, I suggest you register for a `jira account <https://jira.springsource.org/>`_,
    so you can leave comments, etc. on the ticket. I think that works (I don't manage
    jira, so if it doesn't let me know, and we will work from there) NOTE: I like
    notes and comments tracking what you have done, or what you think needs to be done.
    It gives us input in case someone else eventually has to complete the ticket.
    That would also be the place where you can append new files or patches to existing code.
 
-#. Third, register at the `SpringSource community forum <http://forum.springsource.org/>`_,
+#. Third, register at the `SpringSource community forum <https://forum.spring.io/>`_,
    and if you want to kick ideas around or float a concept, feel free to start a thread in our Spring
    Python forum.
 

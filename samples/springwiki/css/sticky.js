@@ -1,6 +1,6 @@
 // Make a layer that stays in the same place on screen when scrolling the browser window.
 // Version 1.2
-// See http://www.mark.ac/help for browser support.
+// See https://www.mark.ac/help for browser support.
 
 var mySticky;
 var theLayer;
@@ -63,7 +63,7 @@ lastY=10;YOffset=0;staticYOffset=10;refreshMS=25;
 
 // -------------------------
 // DHTML menu sliding. Requires checkBrowser()
-// Based on source at http://www.simplythebest.net/
+// Based on source at https://www.simplythebest.net/
 	function layerSlide(layerID) {
 		if(bw.dhtml){
 			if(!mySticky){mySticky=new makeLayerObj(layerID);}

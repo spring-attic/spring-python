@@ -1,5 +1,5 @@
 """
-   Copyright 2006-2009 SpringSource (http://springsource.com), All Rights Reserved
+   Copyright 2006-2009 SpringSource (https://springsource.com), All Rights Reserved
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -45,7 +45,7 @@ print """
 WARNING WARNING WARNING WARNING
 ===============================
 This doesn't yet work. There is some issue with Jython.
-See http://bugs.jython.org/issue1489 and http://jira.springframework.org/browse/SESPRINGPYTHONPY-121 for more details.
+See https://bugs.jython.org/issue1489 and https://jira.springframework.org/browse/SESPRINGPYTHONPY-121 for more details.
 ===============================
 WARNING WARNING WARNING WARNING
 """

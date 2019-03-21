@@ -1,5 +1,5 @@
 """
-   Copyright 2006-2008 SpringSource (http://springsource.com), All Rights Reserved
+   Copyright 2006-2008 SpringSource (https://springsource.com), All Rights Reserved
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -234,7 +234,7 @@ class Page(object):
                         </div><!-- f-poweredbyico -->
                         <ul id="f-list">
                             <li id="f-about">
-                                SpringWiki :: a <a href="http://springpython.webfactional.com">Spring Python</a> demonstration (powered by <A HREF="http://www.cherrypy.org">CherryPy</A>)
+                                SpringWiki :: a <a href="http://springpython.webfactional.com">Spring Python</a> demonstration (powered by <A HREF="https://www.cherrypy.org">CherryPy</A>)
                             </li>
                         </ul>
                     </div><!-- footer -->
@@ -360,7 +360,7 @@ class EditPage(Page):
                 addButton('../images/button_bold.png','Bold text','\'\'\'','\'\'\'','Bold text');
                 addButton('/images/button_italic.png','Italic text','\'\'','\'\'','Italic text');
                 addButton('images/button_link.png','Internal link','[[',']]','Link title');
-                addButton('images/button_extlink.png','External link (remember http:// prefix)','[',']','http://www.example.com link title');
+                addButton('images/button_extlink.png','External link (remember http:// prefix)','[',']','https://www.example.com link title');
                 addButton('images/button_headline.png','Level 2 headline','\n== ',' ==\n','Headline text');
                 addButton('images/button_image.png','Embedded image','[[Image:',']]','Example.jpg');
                 addButton('images/button_media.png','Media file link','[[Media:',']]','Example.ogg');

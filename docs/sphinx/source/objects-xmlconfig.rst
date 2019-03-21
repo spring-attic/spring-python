@@ -198,8 +198,8 @@ as well. The following configuration shows usage of *dict*, *list*, *props*, *se
 * some_dict is a Python dictionary with four entries.
 * some_list is a Python list with three entries.
 * some_props is also a Python dictionary, containing three values.
-* some_set is an instance of Python's `mutable set <http://docs.python.org/library/collections.html?highlight=mutableset#abcs-abstract-base-classes>`_.
-* some_frozen_set is an instance of Python's `frozen set <http://docs.python.org/library/stdtypes.html?#frozenset>`_.
+* some_set is an instance of Python's `mutable set <https://docs.python.org/library/collections.html?highlight=mutableset#abcs-abstract-base-classes>`_.
+* some_frozen_set is an instance of Python's `frozen set <https://docs.python.org/library/stdtypes.html?#frozenset>`_.
 * some_tuple is a Python tuple with three values.
 
 .. note::
@@ -293,7 +293,7 @@ the old :ref:`PyContainer <objects-other-formats-pycontainerconfig>` format woul
 While this is very succinct for expressing definitions using as much Python
 as possible, that format makes it very hard to embed referenced objects and
 inner objects, since PyContainerConfig uses Python's
-`eval <http://docs.python.org/library/functions.html#eval>`_ method to convert
+`eval <https://docs.python.org/library/functions.html#eval>`_ method to convert
 the material.
 
 The following configuration block shows how to configure the same thing for

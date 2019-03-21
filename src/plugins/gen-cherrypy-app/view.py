@@ -1,5 +1,5 @@
 """
-   Copyright 2006-2008 SpringSource (http://springsource.com), All Rights Reserved
+   Copyright 2006-2008 SpringSource (https://springsource.com), All Rights Reserved
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -58,7 +58,7 @@ def footer():
         <hr>
         <table style="width:100%"><tr>
                 <td><A href="/">Home</A></td>
-                <td style="text-align:right;color:silver">${properName} Application :: A <a href="http://cherrypy.org">CherryPy</a>-based ${properName} application-creating template</td>
+                <td style="text-align:right;color:silver">${properName} Application :: A <a href="https://cherrypy.org">CherryPy</a>-based ${properName} application-creating template</td>
         </tr></table>
         </body>
         """

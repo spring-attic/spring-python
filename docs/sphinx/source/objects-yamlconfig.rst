@@ -4,7 +4,7 @@ YamlConfig - Spring Python's YAML format
 .. highlight:: yaml
 
 *YamlConfig* is a class that scans object definitions stored in a
-`YAML 1.1 <http://www.yaml.org/>`_ format using the `PyYAML <http://pyyaml.org/>`_
+`YAML 1.1 <https://yaml.org>`_ format using the `PyYAML <https://pyyaml.org/>`_
 project.
 
 The following is a simple definition of objects, including scope and lazy-init.
@@ -187,8 +187,8 @@ and *tuple*::
 * some_dict is a Python dictionary with four entries.
 * some_list is a Python list with three entries.
 * some_props is also a Python dictionary, containing three values.
-* some_set is an instance of Python's `mutable set <http://docs.python.org/library/collections.html?highlight=mutableset#abcs-abstract-base-classes>`_.
-* some_frozen_set is an instance of Python's `frozen set <http://docs.python.org/library/stdtypes.html?#frozenset>`_.
+* some_set is an instance of Python's `mutable set <https://docs.python.org/library/collections.html?highlight=mutableset#abcs-abstract-base-classes>`_.
+* some_frozen_set is an instance of Python's `frozen set <https://docs.python.org/library/stdtypes.html?#frozenset>`_.
 * some_tuple is a Python tuple with three values.
 
 .. note::
