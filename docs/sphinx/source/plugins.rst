@@ -3,7 +3,7 @@ Spring Python's plugin system
 
 Spring Python's plugin system is designed to help you rapidly develop applications.
 Plugin-based solutions have been proven to enhance developer efficiency, with
-examples such as `Grails <http://grails.org/>`_ and `Eclipse <http://eclipse.org/>`_
+examples such as `Grails <https://grails.org/>`_ and `Eclipse <https://eclipse.org/>`_
 being market leaders in usage and productivity.
 
 This plugin solution was mainly inspired by the Grails demo presented by
@@ -29,7 +29,7 @@ for you to develop your own plugins as well.
 
     Have you considered submitting your plugin as a Spring Extension?
 
-    `Spring Extensions <http://www.springsource.org/extensions>`_ is the official
+    `Spring Extensions <https://www.springsource.org/extensions>`_ is the official
     incubator process for SpringSource. You can
     always maintain your own plugin separately, using whatever means you wish. But
     if want to get a larger adoption of your plugin, name association with
@@ -62,7 +62,7 @@ The results should list available commands::
 
     Coily - the command-line management tool for Spring Python
     ==========================================================
-    Copyright 2006-2008 SpringSource (http://springsource.com), All Rights Reserved
+    Copyright 2006-2008 SpringSource (https://springsource.com), All Rights Reserved
     Licensed under the Apache License, Version 2.0
 
 
@@ -104,7 +104,7 @@ the *gen-cherrypy-app* plugin, you will see it listed::
 
     Coily - the command-line management tool for Spring Python
     ==========================================================
-    Copyright 2006-2008 SpringSource (http://springsource.com), All Rights Reserved
+    Copyright 2006-2008 SpringSource (https://springsource.com), All Rights Reserved
     Licensed under the Apache License, Version 2.0
 
 
@@ -131,12 +131,12 @@ This section documents plugins that are developed by the Spring Python team.
 External dependencies
 +++++++++++++++++++++
 
-*gen-cherrypy-app* plugin requires the installation of `CherryPy 3 <http://cherrypy.org/>`_.
+*gen-cherrypy-app* plugin requires the installation of `CherryPy 3 <https://cherrypy.org/>`_.
 
 gen-cherrypy-app
 ++++++++++++++++
 
-This plugin is used to generate a skeleton `CherryPy <http://cherrypy.org/>`_
+This plugin is used to generate a skeleton `CherryPy <https://cherrypy.org/>`_
 application based on feeding it a command-line argument::
 
     % coily --gen-cherrypy-app twitterclone
@@ -198,7 +198,7 @@ The special things needed to define a plugin are as follows:
 Case Study - gen-cherrypy-app plugin
 ++++++++++++++++++++++++++++++++++++
 
-*gen-cherrypy-app* is a plugin used to build a `CherryPy <http://cherrypy.org/>`_ web application using
+*gen-cherrypy-app* is a plugin used to build a `CherryPy <https://cherrypy.org/>`_ web application using
 Spring Python's feature set. It saves the developer from having to re-configure
 Spring Python's security module, coding CherryPy's engine, and so forth. This
 allows the developer to immediately start writing business code against a
@@ -213,7 +213,7 @@ Source Code
 ::
 
     """
-       Copyright 2006-2008 SpringSource (http://springsource.com), All Rights Reserved
+       Copyright 2006-2008 SpringSource (https://springsource.com), All Rights Reserved
 
        Licensed under the Apache License, Version 2.0 (the "License");
        you may not use this file except in compliance with the License.

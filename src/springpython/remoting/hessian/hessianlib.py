@@ -29,7 +29,7 @@
 # 3. The end-user documentation included with the redistribution, if
 #    any, must include the following acknowlegement:
 #       "This product includes software developed by the
-#        Caucho Technology (http://www.caucho.com/)."
+#        Caucho Technology (https://www.caucho.com/)."
 #    Alternately, this acknowlegement may appear in the software itself,
 #    if and wherever such third-party acknowlegements normally appear.
 #
@@ -399,7 +399,7 @@ class _Method:
 # Hessian is the main class.  A Hessian proxy is created with the URL
 # and then called just as for a local method
 #
-# proxy = Hessian("http://www.caucho.com/hessian/test/basic")
+# proxy = Hessian("http://hessian.caucho.com/test/basic")
 # print proxy.hello()
 #
 class Hessian:

@@ -1,10 +1,10 @@
 /*
 ** MediaWiki 'monobook' style sheet for CSS2-capable browsers.
-** Copyright Gabriel Wicke - http://wikidev.net/
-** License: GPL (http://www.gnu.org/copyleft/gpl.html)
+** Copyright Gabriel Wicke - https://sites.google.com/site/wickelandschaft//
+** License: GPL (https://www.gnu.org/copyleft/gpl.html)
 **
 ** Loosely based on http://www.positioniseverything.net/ordered-floats.html by Big John
-** and the Plone 2.0 styles, see http://plone.org/ (Alexander Limi,Joe Geldart & Tom Croucher,
+** and the Plone 2.0 styles, see https://plone.org/ (Alexander Limi,Joe Geldart & Tom Croucher,
 ** Michael Zeltner and Geir Bækholt)
 ** All you guys rock :)
 */
@@ -40,8 +40,8 @@ td { padding:3px; }
 
 /* Font size:
 ** We take advantage of keyword scaling- browsers won't go below 9px
-** More at http://www.w3.org/2003/07/30-font-size
-** http://style.cleverchimp.com/font_size_intervals/altintervals.html
+** More at https://www.w3.org/2003/07/30-font-size
+** https://style.cleverchimp.com/font_size_intervals/altintervals.html
 */
 
 body {

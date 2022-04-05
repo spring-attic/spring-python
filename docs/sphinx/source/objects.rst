@@ -2,7 +2,7 @@ The IoC container
 =================
 
 Inversion Of Control (IoC), also known as
-`dependency injection <http://en.wikipedia.org/wiki/Dependency_injection>`_
+`dependency injection <https://en.wikipedia.org/wiki/Dependency_injection>`_
 is more of an architectural concept than a simple coding pattern.
 
 The idea is to decouple classes that depend on each other from inheriting other
@@ -31,7 +31,7 @@ used by a container.
     (DI) principle.
 
     If you need a decent insight into IoC and DI, please do refer to said
-    article : http://martinfowler.com/articles/injection.html.
+    article : https://martinfowler.com/articles/injection.html.
 
 The following diagram demonstrates a key Spring concept: building useful
 services on top of simple objects, configured through a container's set
@@ -45,7 +45,7 @@ External dependencies
 XML-based IoC configuration formats use ElementTree which is a part of Python's
 stantard library in Python 2.5 and newer. If you use Python 2.4 you can
 download ElementTree from here. YamlConfig requires installation of PyYAML
-which may be found `here <http://pypi.python.org/pypi/elementtree>`_.
+which may be found `here <https://pypi.python.org/pypi/elementtree>`_.
 No additional dependencies needs be installed if you choose PythonConfig.
 
 Container
@@ -70,7 +70,7 @@ can be defined by extending the *ObjectContainer* class.
 The reason it is called a container is the idea that you are going to a
 central place to get your top level object. While it is also possible to
 get all your other objects, the core concept of
-`dependency injection <http://en.wikipedia.org/wiki/Dependency_injection>`_ is
+`dependency injection <https://en.wikipedia.org/wiki/Dependency_injection>`_ is
 that below your top-most object, all the other dependencies have been injected
 and thus not require container access. That is what we mean when we say most
 of your code does NOT have to be Spring Python-aware.
@@ -154,8 +154,8 @@ Configuration
 
 Spring Python supports different formats for defining objects.
 
-In the spirit of `Spring JavaConfig <http://www.springsource.org/javaconfig>`_
-and `a blog posting <http://blog.springsource.com/2006/11/28/a-java-configuration-option-for-spring/>`_
+In the spirit of `Spring JavaConfig <https://www.springsource.org/javaconfig>`_
+and `a blog posting <https://spring.io/blog/2006/11/28/a-java-configuration-option-for-spring/>`_
 by Rod Johnson, the :doc:`PythonConfig <objects-pythonconfig>` format has been defined. By extending
 :doc:`PythonConfig <objects-pythonconfig>` and using
 the @Object Python decorator, objects may be defined with pure Python code in a centralized class.

@@ -1,5 +1,5 @@
 """
-   Copyright 2006-2008 SpringSource (http://springsource.com), All Rights Reserved
+   Copyright 2006-2008 SpringSource (https://springsource.com), All Rights Reserved
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -27,7 +27,7 @@ TRACE1 = 6
 logging.addLevelName(TRACE1, "TRACE1")
 
 # Original code by Anand Balachandran Pillai (abpillai at gmail.com)
-# http://code.activestate.com/recipes/533135/
+# https://code.activestate.com/recipes/533135/
 class synchronized(object):
     """ Class enapsulating a lock and a function allowing it to be used as
     a synchronizing decorator making the wrapped function thread-safe """

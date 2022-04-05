@@ -6,7 +6,7 @@ PetClinic
 
 PetClinic is a sample application demonstrating the usage of Spring Python.
 
-* It uses `CherryPy <http://cherrypy.org/>`_ as the web server object.
+* It uses `CherryPy <https://cherrypy.org/>`_ as the web server object.
 
 * A `detailed design document <https://fisheye.springsource.org/browse/se-springpython-py/samples/petclinic/cherrypy/html/petclinic.html>`_
   (NOTE: find latest version, and click on raw) is
@@ -32,7 +32,7 @@ After that, it will have setup database *petclinic*::
   bash$ cd cherrypy
   bash$ python petclinic.py
 
-This assumes you have `CherryPy 3 <http://cherrypy.org/>`_  installed. It probably
+This assumes you have `CherryPy 3 <https://cherrypy.org/>`_  installed. It probably
 *won't* work if you are still using CherryPy 2. NOTE: If you are using Python 2.5.2+, you must install
 CherryPy 3.1.2+. The older version of CherryPy (3.1.0) only works pre-2.5.2.
 
@@ -61,7 +61,7 @@ Why write a bot?
 ++++++++++++++++
 
 I read an article,
-`Building a community around your open source project <http://www.redhatmagazine.com/2007/09/21/building-a-community-around-your-open-source-project/>`_,
+`Building a community around your open source project <https://magazine.redhat.com/2007/09/21/building-a-community-around-your-open-source-project/>`_,
 that talked about setting up an IRC channel for your project. This is a route
 to support existing users, and allow them to work with each other.
 
@@ -80,7 +80,7 @@ For Ubuntu users::
 
   % sudo apt-get install python-irclib
 
-This bot also sports a web page using `CherryPy <http://cherrypy.org/>`_.
+This bot also sports a web page using `CherryPy <https://cherrypy.org/>`_.
 You also need to install that as well.
 
 Articles
@@ -102,11 +102,11 @@ What I built
 Using this, I managed to get something primitive running. It took me a while
 to catch on that posting private messages on a channel name instead of a user
 is the way to publicly post to a channel. I guess it helped to trip through
-the `IRC RFC <http://www.irchelp.org/irchelp/rfc/rfc.html>`_ manual, before catching on to this.
+the `IRC RFC <https://www.irchelp.org/irchelp/rfc/rfc.html>`_ manual, before catching on to this.
 
-At this stage, you may wish to get familiar with `regular expressions in Python <http://www.amk.ca/python/howto/regex/>`_.
+At this stage, you may wish to get familiar with `regular expressions in Python <https://www.amk.ca/python/howto/regex/>`_.
 You will certainly need this in order to make intelligent looking patterns.
-Anything more sophisticated would probably require `PLY <http://www.dabeaz.com/ply/>`_.
+Anything more sophisticated would probably require `PLY <https://www.dabeaz.com/ply/>`_.
 
 What I really like is that fact that I built this application in approximately
 24 hours, counting the time to learn how to use python-irclib. I already knew
@@ -116,7 +116,7 @@ article should demonstrate how long it took.
 NOTE: This whole script is contained in one file, and marked up as::
 
   """
-     Copyright 2006-2008 SpringSource (http://springsource.com), All Rights Reserved
+     Copyright 2006-2008 SpringSource (https://springsource.com), All Rights Reserved
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -268,14 +268,14 @@ Spring-based web app::
             <hr>
             <table style="width:100%"><tr>
                     <td><A href="/">Home</A></td>
-                    <td style="text-align:right;color:silver">Coily :: a <a href="http://springpython.webfactional.com">Spring Python</a> IRC bot (powered by <A HREF="http://www.cherrypy.org">CherryPy</A>)</td>
+                    <td style="text-align:right;color:silver">Coily :: a <a href="http://springpython.webfactional.com">Spring Python</a> IRC bot (powered by <A HREF="https://www.cherrypy.org">CherryPy</A>)</td>
             </tr></table>
 
             </body>
             """
 
     def markup(text):
-        """Convert any http://xyz references into real web links."""
+        """Convert any https://xyz references into real web links."""
         httpR = re.compile(r"(http://[\w.:/?-]*\w)")
         alteredText = httpR.sub(r'<A HREF="\1">\1</A>', text)
         return alteredText
@@ -515,4 +515,4 @@ Unfortunately, at this time, I don't have a mechanism to make it run persistentl
 External Links
 ++++++++++++++
 
-`See this article reported in LinuxToday <http://www.linuxtoday.com/news_story.php3?ltsn=2007-10-12-009-26-OS-DV-NT>`_
+`See this article reported in LinuxToday <https://www.linuxtoday.com/news_story.php3?ltsn=2007-10-12-009-26-OS-DV-NT>`_

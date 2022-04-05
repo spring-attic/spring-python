@@ -1,6 +1,6 @@
 #!/usr/bin/python
 """
-   Copyright 2006-2011 SpringSource (http://springsource.com), All Rights Reserved 
+   Copyright 2006-2011 SpringSource (https://springsource.com), All Rights Reserved 
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -77,7 +77,7 @@ def usage():
     print "\t--package\t\tpackage everything up into a tarball for release to sourceforge in %s" % p["packageDir"]
     print "\t--build-stamp [tag]\tfor --package, this specifies a special tag, generating version tag '%s.<tag>. springpython.properties can override with build.stamp'" % p["version"]
     print "\t\t\t\tIf this option isn't used, default will be tag will be '%s.<current time>'" % p["version"]
-    print "\t--register\t\tregister this release with http://pypi.python.org/pypi"
+    print "\t--register\t\tregister this release with https://pypi.python.org/pypi"
     print "\t--docs-sphinx\t\tgenerate Sphinx documentation"
     print "\t--pydoc\t\t\tgenerate pydoc information"
     print

@@ -2,11 +2,11 @@
 ** MediaWiki Print style sheet for CSS2-capable browsers.
 ** Copyright Gabriel Wicke, http://www.aulinx.de/
 **
-** Derived from the plone (http://plone.org/) styles
+** Derived from the plone (https://plone.org/) styles
 ** Copyright Alexander Limi
 */
 
-/* Thanks to A List Apart (http://alistapart.com/) for useful extras */
+/* Thanks to A List Apart (https://alistapart.com/) for useful extras */
 a.stub,
 a.new{ color:#ba0000; text-decoration:none; }
 

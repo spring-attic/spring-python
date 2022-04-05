@@ -17,7 +17,7 @@ for a background on this module.
 External dependencies
 ---------------------
 
-*springpython.security.cherrypy3* package depends on `CherryPy 3 <http://cherrypy.org/>`_
+*springpython.security.cherrypy3* package depends on `CherryPy 3 <https://cherrypy.org/>`_
 being installed prior to using it. Other than that, there are no specific external libraries
 required by Spring Python's security system, however the IoC configuration
 format that you'll be using may need some, check IoC documentation

@@ -1,4 +1,4 @@
-   Copyright 2006-2008 SpringSource (http://springsource.com), All Rights Reserved
+   Copyright 2006-2008 SpringSource (https://springsource.com), All Rights Reserved
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -13,7 +13,7 @@
    limitations under the License.       
 *****************************************************************************************
 
-Spring Python is inspired by the Spring framework (http://www.springframework.org)
+Spring Python is inspired by the Spring framework (https://www.springframework.org)
 which is released under the Apache Foundation License. Spring Python does NOT require
 redistribution of Spring's software modules, nor any of its dependencies (binary or source code).
 However, you are free to download their source code to understand the basis of this product.
@@ -54,7 +54,7 @@ USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
 DAMAGE.
 
 *****************************************************************************************
-Spring Python includes software developed by Fourthought, Inc. (http://www.fourthought.com).
+Spring Python includes software developed by Fourthought, Inc. (https://www.pinkertonpw.com/).
 
 License and copyright info for 4Suite software License and copyright info for 4Suite
 software Mike Olson Fourthought, Inc. Uche Ogbuji Fourthought, Inc. License and copyright
@@ -77,7 +77,7 @@ reproduce the above copyright notice, this list of conditions and the following 
 in the documentation and/or other materials provided with the distribution. The end-user
 documentation included with the redistribution, if any, must include the following
 acknowledgment: "This product includes software developed by Fourthought, Inc.
-(http://www.fourthought.com)." Alternately, this acknowledgment may appear in the software
+(https://www.pinkertonpw.com/)." Alternately, this acknowledgment may appear in the software
 itself, if and wherever such third-party acknowledgments normally appear. The names "4Suite",
 "4Suite Server" and "Fourthought" must not be used to endorse or promote products derived from
 this software without prior written permission. For written permission, please contact
@@ -98,7 +98,7 @@ This license is based on the Apache Software License, Version 1.1,
 Copyright (c) 2000 The Apache Software Foundation. All rights reserved. 
 
 *****************************************************************************************
-Spring Python includes software developed by Uche Ogbuji (http://uche.ogbuji.net).
+Spring Python includes software developed by Uche Ogbuji (https://uche.ogbuji.net).
 
 Redistribution and use in source and binary forms, with or without modification, are permitted
 provided that the following conditions are met:
@@ -110,7 +110,7 @@ provided that the following conditions are met:
       with the distribution.
    3. The end-user documentation included with the redistribution, if any, must include the
       following acknowledgment: "This product includes software developed by Uche Ogbuji
-      (http://uche.ogbuji.net)." Alternately, this acknowledgment may appear in the software
+      (https://uche.ogbuji.net)." Alternately, this acknowledgment may appear in the software
       itself, if and wherever such third-party acknowledgments normally appear.
    4. The names "Amara" and "Uche Ogbuji" must not be used to endorse or promote products derived
       from this software without prior written permission of Uche Ogbuji (uche@ogbuji.net).

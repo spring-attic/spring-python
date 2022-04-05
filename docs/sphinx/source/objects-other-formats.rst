@@ -93,7 +93,7 @@ Python platform.
     <beans xmlns="http://www.springframework.org/schema/beans"
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
            xsi:schemaLocation="http://www.springframework.org/schema/beans
-               http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+               https://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
 
         <bean id="MovieLister" class="springpythontest.support.testSupportClasses.MovieLister" scope="prototype">
             <property name="finder" ref="MovieFinder"/>
@@ -139,7 +139,7 @@ the *ApplicationContext*.
     feature set.
 
     How much of Spring Java will be supported? That is an open question, best
-    discussed on `Spring Python's community forum <http://forum.springsource.org/forumdisplay.php?f=45>`_.
+    discussed on `Spring Python's community forum <https://forum.spring.io/forumdisplay.php?f=45>`_.
     Basically, this is meant to ease current Java developers into Spring Python and/or
     provide a means to split up objects to support porting parts of your application
     into Python. There isn't any current intention of providing full blown support.
