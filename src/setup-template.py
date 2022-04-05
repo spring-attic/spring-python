@@ -6,7 +6,7 @@
    you may not use this file except in compliance with the License.
    You may obtain a copy of the License at
 
-       http://www.apache.org/licenses/LICENSE-2.0
+       https://www.apache.org/licenses/LICENSE-2.0
 
    Unless required by applicable law or agreed to in writing, software
    distributed under the License is distributed on an "AS IS" BASIS,
@@ -34,7 +34,7 @@ setup(name='springpython',
       author_email='greg.turnquist at springsource dot com',
       url='http://springpython.webfactional.com',
       platforms = ["Python >= 2.6"],
-      license='Apache Software License (http://www.apache.org/licenses/LICENSE-2.0)',
+      license='Apache Software License (https://www.apache.org/licenses/LICENSE-2.0)',
       scripts=['plugins/coily'],
       packages=['springpython',
                 'springpython.aop',

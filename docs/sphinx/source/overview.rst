@@ -184,7 +184,7 @@ Licensing
 +++++++++
 
 Spring Python is released under the
-`Apache Server License 2.0 <http://www.apache.org/licenses/LICENSE-2.0>`_
+`Apache Server License 2.0 <https://www.apache.org/licenses/LICENSE-2.0>`_
 and the copyright is held by SpringSource.
 
 Spring Python's team
